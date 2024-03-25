@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+  <script src="javascript/index.js" defer></script>
+  <title>Physique Profile</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="flex-right">
+        <button id="btn-modal" class="btn-primary">
+          Adicionar
+        </button>
+      </div>
+      <div class="table-list thead">
+        <span class="thead">First Name</span>
+        <span class="thead">Last Name</span>
+        <span class="thead">Weight</span>
+        <span class="thead">Height</span>
+      </div>
+
+      <div class="table-list even">
+        <span>Tiago</span>
+        <span>Mendonça</span>
+        <span>85</span>
+        <span>1.85</span>
+      </div>
+      <div class="table-list odd">
+        <span>Tiago</span>
+        <span>Mendonça</span>
+        <span>85</span>
+        <span>1.85</span>
+      </div>
+      <div class="table-list even">
+        <span>Tiago</span>
+        <span>Mendonça</span>
+        <span>85</span>
+        <span>1.85</span>
+      </div>
+      <div class="table-list odd">
+        <span>Tiago</span>
+        <span>Mendonça</span>
+        <span>85</span>
+        <span>1.85</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal">
+    <div class="modal-content">
+      <button id="close-modal" class="close">&times;</button>
+      <h2>Add physical profile</h2>
+
+      <form action="" id="form">
+        <input type="text" placeholder="First Name" name="first-name">
+        <input type="text" placeholder="Last Name" name="last-name">
+        <input type="text" placeholder="Weight" name="weight">
+        <input type="text" placeholder="Height" name="height">
+        <div class="mt-1">
+          <button type="submit" class="btn-primary">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

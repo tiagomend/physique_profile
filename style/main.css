@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background-color: #eaeaea;
+}
+
+.container {
+	max-width: 900px;
+	margin: 100px auto;
+}
+
+.card {
+	background-color: #ffffff;
+	padding: 100px 30px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #5c5c5c48;
+}
+
+.table-list {
+	width: 100%;
+	padding: 10px 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-family: "Poppins", sans-serif;
+}
+
+.table-list::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.table-list span {
+	float: left;
+	width: 25%;
+}
+
+.table-list.thead {
+	background-color: #cfcfcf;
+}
+
+.table-list .thead {
+	font-weight: 700;
+}
+
+.table-list.even {
+	background-color: #f9f9f9;
+}
+
+.table-list.odd {
+	background-color: #f0f0f0;
+}
+
+.btn-primary {
+	background-color: #0687fe;
+	color: #ffffff;
+	font-family: "Poppins", sans-serif;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-primary:hover {
+	background-color: #0d6bc2;
+}
+
+.flex-right {
+	display: inline-flex;
+	width: 100%;
+	justify-content: end;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+	background-color: #ffffff;
+	width: 800px;
+	margin: 10% auto;
+	padding: 30px 30px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #5c5c5c48;
+}
+
+.close {
+	background-color: #f0f0f0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+	color: #aaaaaa;
+	float: right;
+	margin-top: -20px;
+	margin-right: -20px;
+	font-size: 28px;
+	cursor: pointer;
+}
+
+.close:hover {
+	background-color: #daeaff;
+	color: #ffffff;
+}
+
+input {
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
+	border-radius: 4px;
+	padding: 5px 10px;
+	width: 50%;
+	margin-top: 10px;
+}
+
+input:focus {
+	outline: 3px solid #daeaff;
+	border:1px solid #0687fe;
+}
+
+.mt-1 {
+	margin-top: 10px;
+}
